@@ -63,7 +63,7 @@ body {
 
 .hero-title {
   font-family: 'Alex Brush', cursive;
-  font-size: clamp(3.8rem, 6vw, 5.8rem);
+  font-size: clamp(2.8rem, 8vw, 5.8rem);
   margin: 0;
   letter-spacing: 0.08em;
   text-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
@@ -438,4 +438,56 @@ body {
   .direction-cards {
     grid-template-columns: 1fr;
   }
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+  body {
+    background-attachment: scroll;
+  }
+
+  .section {
+    padding: 40px 15px;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .hero-verse {
+    font-size: 1.1rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .direction-options {
+    flex-direction: column;
+  }
+
+  .direction-button {
+    width: 100%;
+  }
+
+  .map-preview {
+    height: 250px;
+  }
+
+  .qr-code {
+    max-width: 200px;
+  }
+
 }
