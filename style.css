@@ -491,3 +491,50 @@ body {
   }
 
 }
+/* CONTACT SECTION */
+
+.contact {
+  background: transparent;
+}
+
+.contact-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+  color: #3b2a3a;
+}
+
+.contact-text {
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.contact-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background: rgba(255,255,255,0.85);
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+  min-width: 200px;
+}
+
+.contact-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.contact-card a {
+  color: #b44f70;
+  text-decoration: none;
+  font-weight: 600;
+}
