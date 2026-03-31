@@ -560,7 +560,38 @@ body {
   background-repeat: no-repeat;
 }
 /* CONTACT SECTION MOBILE FIX */
+/* LIVE STREAM */
+.live-stream {
+  margin-top: 40px;
+  text-align: center;
+  padding: 0 15px;
+}
 
+.live-stream h3 {
+  margin-bottom: 15px;
+}
+
+.live-thumbnail {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.live-thumbnail:hover {
+  transform: scale(1.02);
+}
+
+.live-link a {
+  display: inline-block;
+  margin-top: 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
 @media (max-width: 600px) {
 
   .contact-content {
@@ -628,11 +659,8 @@ body {
 
 /* Mobile Responsive */
 @media (max-width: 600px) {
-  .live-stream {
-    margin-top: 30px;
-  }
-
   .live-thumbnail {
+    max-width: 100%;
     border-radius: 10px;
   }
 }
