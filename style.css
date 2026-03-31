@@ -623,3 +623,29 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
+.live-stream {
+  margin-top: 40px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.live-thumbnail {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease;
+}
+
+.live-thumbnail:hover {
+  transform: scale(1.02);
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .live-thumbnail {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+}
